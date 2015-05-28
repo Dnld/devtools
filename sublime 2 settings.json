@@ -1,0 +1,27 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 500,
+	"caret_style": "blink",
+	"color_scheme": "Packages/** Tomorrow **/Tomorrow Night -04.tmTheme",
+	"draw_white_space": "none",
+	"font_face": "Source Code Pro",
+	"font_size": 14.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal"
+	],
+	"save_on_focus_lost": true,
+	"spell_check": true,
+	"tab_size": 4,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": false,
+	"wide_caret": true,
+	"word_wrap": "true",
+	"wrap_width": 0
+}
