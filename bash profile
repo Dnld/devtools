@@ -51,6 +51,7 @@ alias gh="git help"
 alias gi="git init"
 alias gl="git log"
 alias gll="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+alias glll="gll master --all"
 alias gmc="git commit -m"
 alias gmg="git merge"
 alias gpu="git push"
@@ -60,18 +61,22 @@ alias gpum="git pull upstream master"
 alias gr="git remote"
 alias grao="git remote add origin"
 alias grau="git remote add upstream"
-alias grm="git rm"  
+alias grm="git rm"
+alias grs="git reset"
+alias grv="git revert"
 alias gs="git status"
+alias gt="git tag"
 alias get="git"
 alias got="git"
 
 # Python shortcuts
 alias pss='python -m SimpleHTTPServer'
 
-# Rails shortcuts
+# Ruby / Rails shortcuts
 alias rc="rails console"
 alias rg="rails generate"
 alias rs="rails server"
+alias rr="ruby"
 
 # Safari shortcuts
 alias saf="open -a 'Safari'"
