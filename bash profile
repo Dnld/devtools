@@ -82,8 +82,10 @@ alias rr="ruby"
 alias saf="open -a 'Safari'"
 
 # Sublime shortcuts
-alias s="sublime"
-alias s.="sublime ."
+alias s="subl"
+alias s.="subl ."
+alias s2="sublime"
+alias s2.="sublime ."
 
 # Xcode shortcuts
 alias xco='open -a /Applications/Xcode.app'
