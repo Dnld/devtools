@@ -27,7 +27,7 @@ alias desk="cd ~/Desktop"
 alias dev="cd ~/development"
 alias f="open -a Finder ./"
 alias ll="ls -lahG"
-alias n="nano"
+alias e="nano"
 alias t="touch"
 alias rbp="source ~/.bash_profile"
 
@@ -68,6 +68,9 @@ alias gs="git status"
 alias gt="git tag"
 alias get="git"
 alias got="git"
+
+# Node shortcuts
+alias n="node"
 
 # Python shortcuts
 alias pss='python -m SimpleHTTPServer'
