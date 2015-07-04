@@ -12,28 +12,27 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/msql/bin:$PATH
 # prompt
 export PS1="\W\$(parse_git_branch) \u$ "
 
-# source
-source ~/.profile
-
 # default editor
 export EDITOR=/usr/bin/nano
 
 # environment shortcuts
 alias ~="cd ~"
 alias bp="s ~/.bash_profile"
+alias c="clear"
 alias cd..="cd ../"
 alias ..="cd ../"
 alias ...="cd ../../"
-alias c="clear"
 alias desk="cd ~/Desktop"
 alias dev="cd ~/development"
+alias down="cd ~/Downloads"
+alias ed="nano"
 alias f="open -a Finder ./"
 alias ll="ls -lahG"
-alias e="nano"
-alias t="touch"
 alias rbp="source ~/.bash_profile"
+alias t="touch"
 
 # temporary shortcuts
+alias hack="cd /Users/djs/development/hackreactor"
 
 # Chrome shortcuts
 alias chr="open -a 'Google Chrome'"
@@ -45,19 +44,23 @@ alias gad="git add ."
 alias gb="git branch"
 alias gc="git commit"
 alias gcam="git commit -am"
+alias gcamen="git commit --amend -m"
+alias gcf="git config"
 alias gcm="git commit -m"
 alias gcl="git clone"
 alias gco="git checkout"
 alias gd="git diff"
 alias gh="git help" 
 alias gi="git init"
+alias gk="gitk"
 alias gl="git log"
 alias gll="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
-alias glll="gll master --all"
+alias glll="gll --all"
 alias gmc="git commit -m"
 alias gmg="git merge"
-alias gpu="git push"
+alias gmv="git mv"
 alias gpl="git pull"
+alias gpu="git push"
 alias gpom="git push origin master"
 alias gpum="git pull upstream master"
 alias gr="git remote"
@@ -68,6 +71,7 @@ alias grs="git reset"
 alias grv="git revert"
 alias gs="git status"
 alias gt="git tag"
+alias gx="gitx"
 alias get="git"
 alias got="git"
 
@@ -79,7 +83,7 @@ alias pss='python -m SimpleHTTPServer'
 alias py='python'
 
 # Ruby / Rails shortcuts
-alias rc="rails console"
+alias rc="irb"
 alias rg="rails generate"
 alias rs="rails server"
 alias ru="ruby"
