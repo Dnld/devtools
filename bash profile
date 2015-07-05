@@ -1,7 +1,7 @@
 ###############################################################################
 
 # djs bash profile
-# updated July 4, 2015
+# updated July 5, 2015
 # https://github.com/Dnld/devtools/
 
 ###############################################################################
@@ -25,7 +25,7 @@ alias ...="cd ../../"
 alias desk="cd ~/Desktop"
 alias dev="cd ~/development"
 alias down="cd ~/Downloads"
-alias ed="nano"
+alias e="nano"
 alias f="open -a Finder ./"
 alias ll="ls -lahG"
 alias rbp="source ~/.bash_profile"
@@ -50,6 +50,7 @@ alias gcm="git commit -m"
 alias gcl="git clone"
 alias gco="git checkout"
 alias gd="git diff"
+alias gf="git fetch"
 alias gh="git help" 
 alias gi="git init"
 alias gk="gitk"
@@ -69,8 +70,8 @@ alias grau="git remote add upstream"
 alias grm="git rm"
 alias grs="git reset"
 alias grv="git revert"
-alias gs="git status"
-alias gss="git status -s"
+alias gs="git status -s"
+alias gss="git status"
 alias gt="git tag"
 alias gx="gitx"
 alias get="git"
