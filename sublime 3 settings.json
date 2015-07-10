@@ -4,8 +4,11 @@
 	"auto_complete_delay": 50,
 	"caret_style": "blink",
 	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/SublimeLinter/DJS Next (SL).tmTheme",
 	"draw_white_space": "none",
+	"find_selected_text": true,
 	"font_face": "Source Code Pro",
+	"font_options": "subpixel_antialias",
 	"font_size": 14.0,
 	"ignored_packages":
 	[
@@ -15,10 +18,12 @@
 	[
 		"draw_normal"
 	],
+	"match_brackets_angle": true,
+	"open_files_in_new_window": false,
 	"save_on_focus_lost": true,
 	"spell_check": true,
-	"tab_size": 4,
-	"theme": "Soda Light.sublime-theme",
+	"tab_size": 2,
+	"theme": "El Capitan.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": false,
