@@ -80,6 +80,7 @@ alias got="git"
 
 # Node shortcuts
 alias n="node"
+alias nd="node debug"
 
 # Python shortcuts
 alias pss='python -m SimpleHTTPServer'
