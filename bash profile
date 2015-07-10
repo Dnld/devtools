@@ -81,6 +81,8 @@ alias got="git"
 # Node shortcuts
 alias n="node"
 alias nd="node debug"
+alias ndb="node --debug-brk"
+alias ni="node-inspector"
 
 # Python shortcuts
 alias pss='python -m SimpleHTTPServer'
