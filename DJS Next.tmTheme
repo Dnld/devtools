@@ -13,7 +13,7 @@
         <key>divider</key>
         <string>#343d46</string>
         <key>foreground</key>
-        <string>#65737e</string>
+        <string>#808080</string>
         <key>selectionBackground</key>
         <string>#4f5b66</string>
         <key>selectionForeground</key>
@@ -50,7 +50,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#a7a8a7</string>
+                <string>#808080</string>
             </dict>
         </dict>
         <dict>
