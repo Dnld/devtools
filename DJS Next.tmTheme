@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>author</key>
-    <string>Dmitri Voronianski (http://pixelhunter.me)</string>
+    <string>Donald Steinert (http://www.dnld.cc)</string>
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>gutterSettings</key>
@@ -13,16 +13,16 @@
         <key>divider</key>
         <string>#343d46</string>
         <key>foreground</key>
-        <string>#808080</string>
+        <string>#C4C8C7</string>
         <key>selectionBackground</key>
         <string>#4f5b66</string>
         <key>selectionForeground</key>
         <string>#a7adba</string>
     </dict>
     <key>name</key>
-    <string>Oceanic Next</string>
+    <string>DJS Next</string>
     <key>semanticClass</key>
-    <string>oceanic.next.dark</string>
+    <string>DJS.next.dark</string>
     <key>settings</key>
     <array>
         <dict>
@@ -50,7 +50,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#808080</string>
+                <string>#797D7F</string>
             </dict>
         </dict>
         <dict>
