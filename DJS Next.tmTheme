@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>author</key>
-    <string>Donald Steinert (http://www.dnld.cc)</string>
+    <string>Donald Steinert (http://www.dnld.cc; https://github.com/Dnld/devtools/)</string>
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>gutterSettings</key>

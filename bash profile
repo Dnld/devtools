@@ -1,10 +1,10 @@
-###############################################################################
+################################################################################
 
 # djs bash profile
-# updated July 5, 2015
+# updated August 5, 2015
 # https://github.com/Dnld/devtools/
 
-###############################################################################
+################################################################################
 
 # set paths
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/msql/bin:$PATH
@@ -17,8 +17,10 @@ export EDITOR=/usr/bin/nano
 
 # environment shortcuts
 alias ~="cd ~"
+alias act="open -a activity\ monitor"
 alias bp="s ~/.bash_profile"
 alias c="clear"
+alias cal="open -a calendar"
 alias cd..="cd ../"
 alias ..="cd ../"
 alias ...="cd ../../"
@@ -28,7 +30,12 @@ alias down="cd ~/Downloads"
 alias e="nano"
 alias f="open -a Finder ./"
 alias ll="ls -lahG"
+alias mai="open -a mail"
+alias mes="open -a messages"
+alias oa='open -a'
+alias rem="open -a reminders"
 alias rbp="source ~/.bash_profile"
+alias sla="open -a slack"
 alias t="touch"
 
 # temporary shortcuts
@@ -127,4 +134,4 @@ export PATH
 # load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-###############################################################################
+################################################################################
