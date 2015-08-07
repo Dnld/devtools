@@ -46,6 +46,7 @@ alias hack="cd /Users/djs/development/hackreactor"
 
 # Chrome shortcuts
 alias chr="open -a 'Google Chrome'"
+function chrg() { chr "http://www.google.com/search?q= $1"; }
 
 # Git shortcuts
 alias ga="git add"
@@ -106,6 +107,7 @@ alias ru="ruby"
 
 # Safari shortcuts
 alias saf="open -a 'Safari'"
+function safg() { saf "http://www.google.com/search?q= $1"; }
 
 # Sublime shortcuts
 alias s="subl"
@@ -118,7 +120,7 @@ alias xco='open -a /Applications/Xcode.app'
 
 # Git branch in prompt
 parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
 # Node path
