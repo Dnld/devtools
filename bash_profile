@@ -10,7 +10,7 @@
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/msql/bin:$PATH
 
 # prompt
-export PS1="\[\033[1;32m\]\W\$(parse_git_branch) \u$\[\033[0m\] "
+export PS1="\[\033[2m\]\W\$(parse_git_branch) \u$\[\033[0m\] "
 
 # default editor
 export EDITOR=/usr/bin/nano
