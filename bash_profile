@@ -32,8 +32,8 @@ alias rbp="source ~/.bash_profile"
 alias rm="rm -iv"
 alias t="touch"
 function ts() {
-  t "$1"
-  s "$1"
+  touch "$1"
+  subl "$1"
 }
 function cdf() {
   currFolderPath=$( /usr/bin/osascript <<EOT
@@ -95,7 +95,7 @@ alias sp="cd /Users/djs/development/hackreactor/sprints"
 alias tp="cd /Users/djs/development/hackreactor/toyproblems"
 
 # Chrome shortcuts
-alias chr="open -a Google\ Chrome"
+alias chr="open -a google\ chrome"
 function cg() {
   chr "http://www.google.com/search?q= $1"
 }
@@ -113,6 +113,7 @@ alias gcm="git commit -m"
 alias gcl="git clone"
 alias gco="git checkout"
 alias gd="git diff"
+alias gdt="open -a github\ desktop"
 alias gf="git fetch"
 alias gh="git help" 
 alias gi="git init"
@@ -158,7 +159,7 @@ alias rs="rails server"
 alias ru="ruby"
 
 # Safari shortcuts
-alias saf="open -a Safari"
+alias saf="open -a safari"
 function sg() {
   saf "http://www.google.com/search?q= $1"
 }
