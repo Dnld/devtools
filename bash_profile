@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated August 10, 2015
+# updated August 16, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -133,6 +133,7 @@ alias gmv="git mv"
 alias gpl="git pull"
 alias gpo="git push origin"
 alias gpom="git push origin master"
+alias gpfom="git push -f origin master"
 alias gpu="git push"
 alias gpum="git pull upstream master"
 alias gr="git remote"
