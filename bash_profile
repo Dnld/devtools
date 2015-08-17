@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated August 16, 2015
+# updated August 17, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -102,6 +102,7 @@ alias tp="cd /Users/djs/development/hackreactor/toyproblems"
 
 # Chrome shortcuts
 alias chr="open -a google\ chrome"
+alias hang="open -a google\ chrome http://hangouts.google.com/start"
 function cg() {
   chr "http://www.google.com/search?q= $1"
 }
