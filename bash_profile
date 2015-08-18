@@ -16,7 +16,7 @@ export PS1="\[\033[2m\]\W\$(parse_git_branch) \u$\[\033[0m\] "
 export EDITOR=/usr/bin/nano
 
 # environment shortcuts
-alias bp="s ~/.bash_profile"
+alias bp="subl ~/.bash_profile"
 alias c="clear"
 alias cd..="cd ../"
 alias ..="cd ../"
