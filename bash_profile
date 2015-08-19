@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated August 17, 2015
+# updated August 18, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -97,6 +97,7 @@ alias down="cd ~/Downloads"
 # temporary shortcuts
 alias hr="cd /Users/djs/development/hackreactor"
 alias pw="cd /Users/djs/development/hackreactor/prework"
+alias sa="cd /Users/djs/development/hackreactor/selfassess"
 alias sp="cd /Users/djs/development/hackreactor/sprints"
 alias tp="cd /Users/djs/development/hackreactor/toyproblems"
 
