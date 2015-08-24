@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated August 18, 2015
+# updated August 23, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -103,9 +103,19 @@ alias tp="cd /Users/djs/development/hackreactor/toyproblems"
 
 # Chrome shortcuts
 alias chr="open -a google\ chrome"
-alias hang="open -a google\ chrome http://hangouts.google.com/start"
 function cg() {
   chr "http://www.google.com/search?q= $1"
+}
+function hang() {
+  open -a google\ chrome http://hangouts.google.com/start
+  /usr/bin/osascript <<EOT
+  tell application "System Events" 
+    delay 3.5
+    keystroke tab
+    keystroke tab
+    keystroke "c" using command down
+  end tell
+EOT
 }
 
 # Git shortcuts
