@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated August 26, 2015
+# updated September 4, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -166,6 +166,12 @@ alias n="node"
 alias nd="node debug"
 alias ndb="node --debug-brk"
 alias ni="node-inspector"
+
+# CoffeeScript shortcuts
+alias co="coffee"
+alias coc="coffee -c"
+alias cocomp="coffee --output compiled --map --watch --compile ./"
+alias coo="coffee -c -o"
 
 # Python shortcuts
 alias pss="python -m SimpleHTTPServer"
