@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated September 6, 2015
+# updated September 7, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -162,9 +162,10 @@ alias get="git"
 alias got="git"
 
 # Node shortcuts
-alias n="node"
+alias no="node"
 alias nd="node debug"
 alias ndb="node --debug-brk"
+alias nde="nodemon"
 alias ni="node-inspector"
 
 # CoffeeScript shortcuts
