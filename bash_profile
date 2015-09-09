@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated September 7, 2015
+# updated September 8, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -18,6 +18,7 @@ export EDITOR=/usr/bin/nano
 # environment shortcuts
 alias bp="subl ~/.bash_profile"
 alias c="clear"
+alias c-="cd -"
 alias cd..="cd ../"
 alias ..="cd ../"
 alias ...="cd ../../"
