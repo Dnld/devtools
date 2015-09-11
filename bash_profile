@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated September 8, 2015
+# updated September 11, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -161,6 +161,11 @@ alias gt="git tag"
 alias gx="gitx"
 alias get="git"
 alias got="git"
+
+#MySQL shortcuts
+alias ms='mysql'
+alias msa='mysqladmin'
+alias mss='mysql.server'
 
 # Node shortcuts
 alias no="node"
