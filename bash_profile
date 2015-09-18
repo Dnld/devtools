@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated September 11, 2015
+# updated September 18, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -162,10 +162,18 @@ alias gx="gitx"
 alias get="git"
 alias got="git"
 
+# MongoDB shortcuts
+alias mdb="sudo /usr/local/Cellar/mongodb/3.0.6/bin/mongod"
+alias mo="mongo"
+
 #MySQL shortcuts
 alias ms='mysql'
 alias msa='mysqladmin'
 alias mss='mysql.server'
+alias msur="mysql -u root"
+
+# Networking shortcuts
+alias ports="sudo lsof -PiTCP -sTCP:LISTEN"
 
 # Node shortcuts
 alias no="node"
