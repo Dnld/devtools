@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated September 18, 2015
+# updated September 23, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -79,6 +79,7 @@ function ffe() {
 alias act="open -a activity\ monitor"
 alias cal="open -a calendar"
 alias con="open -a contacts"
+alias das="open dash://"
 alias itu="open -a itunes"
 alias mai="open -a mail"
 alias mes="open -a messages"
@@ -97,6 +98,7 @@ alias down="cd ~/Downloads"
 
 # temporary shortcuts
 alias hr="cd /Users/djs/development/hackreactor"
+alias pj="cd /Users/djs/development/hackreactor/projects"
 alias pw="cd /Users/djs/development/hackreactor/prework"
 alias sa="cd /Users/djs/development/hackreactor/selfassess"
 alias sp="cd /Users/djs/development/hackreactor/sprints"
@@ -148,6 +150,7 @@ alias gpo="git push origin"
 alias gpom="git push origin master"
 alias gpfom="git push -f origin master"
 alias gpu="git push"
+alias gprum="git pull --rebase upstream master"
 alias gpum="git pull upstream master"
 alias gr="git remote"
 alias grao="git remote add origin"
