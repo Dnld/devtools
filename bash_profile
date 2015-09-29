@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated September 23, 2015
+# updated September 29, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -126,6 +126,7 @@ alias ga="git add"
 alias gaa="git add -A"
 alias gad="git add ."
 alias gb="git branch"
+alias gbco="git checkout -b"
 alias gc="git commit"
 alias gcam="git commit -am"
 alias gcamen="git commit --amend"
@@ -145,15 +146,18 @@ alias glll="gll --all"
 alias gmc="git commit -m"
 alias gmg="git merge"
 alias gmv="git mv"
+alias gpf="git push -f"
+alias gpfo="git push -f origin"
+alias gpfom="git push -f origin master"
 alias gpl="git pull"
 alias gpo="git push origin"
 alias gpom="git push origin master"
-alias gpfom="git push -f origin master"
 alias gpu="git push"
-alias gprum="git pull --rebase upstream master"
+alias gpru="git pull --rebase upstream"
 alias gpum="git pull upstream master"
 alias gr="git remote"
 alias grao="git remote add origin"
+alias grb="git rebase"
 alias grau="git remote add upstream"
 alias grm="git rm"
 alias grs="git reset"
