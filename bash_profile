@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated September 29, 2015
+# updated October 4, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -26,7 +26,7 @@ alias cp="cp -iv"
 alias e="nano"
 alias f="open -a Finder ./"
 alias ll="ls -lahG"
-alias mkdir="mkdir -v"
+alias mk="mkdir -v"
 alias mv="mv -iv"
 alias oa="open -a"
 alias pc="pbcopy"
