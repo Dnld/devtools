@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated October 4, 2015
+# updated November 30, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -100,13 +100,8 @@ alias down="cd ~/Downloads"
 alias cs="cd /Users/djs/development/hackreactor/career"
 alias hi="cd /Users/djs/development/hackreactor/hir"
 alias hr="cd /Users/djs/development/hackreactor"
-alias pj="cd /Users/djs/development/hackreactor/projects"
-alias pw="cd /Users/djs/development/hackreactor/prework"
-alias sa="cd /Users/djs/development/hackreactor/selfassess"
 alias sj="cd /Users/djs/development/hackreactor/projects/shiftjs"
-alias sp="cd /Users/djs/development/hackreactor/sprints"
-alias ss="cd /Users/djs/development/stanford-193p-swift"
-alias tp="cd /Users/djs/development/hackreactor/toyproblems/2015-08-toy-problems"
+alias ss="cd /Users/djs/development/swift"
 alias test="grunt testLexer"
 
 # Chrome shortcuts
