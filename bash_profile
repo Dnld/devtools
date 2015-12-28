@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated November 30, 2015
+# updated December 28, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -100,6 +100,7 @@ alias down="cd ~/Downloads"
 alias cs="cd /Users/djs/development/hackreactor/career"
 alias hi="cd /Users/djs/development/hackreactor/hir"
 alias hr="cd /Users/djs/development/hackreactor"
+alias pd="cd /Users/djs/development/predictster"
 alias sj="cd /Users/djs/development/hackreactor/projects/shiftjs"
 alias ss="cd /Users/djs/development/swift"
 alias test="grunt testLexer"
