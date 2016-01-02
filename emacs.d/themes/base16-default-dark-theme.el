@@ -1,5 +1,6 @@
 ;; Base16 Default (https://github.com/chriskempson/base16)
 ;; Scheme: Chris Kempson (http://chriskempson.com)
+;; Revised: Donald Steinert (http://dnld.cc)
 
 ;;; base16-default-dark-theme.el
 
@@ -10,7 +11,7 @@
 (let ((base00 "#181818")
       (base01 "#282828")
       (base02 "#383838")
-      (base03 "#585858")
+      (base03 "#5f6364")
       (base04 "#b8b8b8")
       (base05 "#d8d8d8")
       (base06 "#e8e8e8")
@@ -31,7 +32,7 @@
    `(border ((t (:background ,base03))))
    `(border-glyph ((t (nil))))
    `(cursor ((t (:background ,base08))))
-   `(default ((t (:background ,base00 :foreground ,base05))))
+   `(default ((t (:background nil :foreground ,base05))))
    `(fringe ((t (:background ,base02))))
    `(gui-element ((t (:background ,base03 :foreground ,base06))))
    `(highlight ((t (:background ,base01))))

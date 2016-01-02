@@ -1,20 +1,20 @@
-;; Charcoal (http://github.com/Dnld/charcoal-color-theme)
+;; Charcoal Theme (https://github.com/Dnld/charcoal-color-scheme)
 ;; Donald Steinert (http://dnld.cc)
 
-;;; cahrcoal-theme.el
+;;; charcoal-theme.el
 
 ;;; Code:
 
-(deftheme charcoal-dark)
+(deftheme charcoal)
 
-(let ((base00 "#1b2b34")
-      (base01 "#343d46")
-      (base02 "#4f5b66")
-      (base03 "#65737e")
-      (base04 "#a7adba")
-      (base05 "#c0c5ce")
-      (base06 "#cdd3de")
-      (base07 "#d8dee9")
+(let ((base00 "#181818")
+      (base01 "#44494f")
+      (base02 "#383838")
+      (base03 "#5f6364")
+      (base04 "#b8b8b8")
+      (base05 "#cfd2d1")
+      (base06 "#e8e8e8")
+      (base07 "#f8f8f8")
       (base08 "#ec5f67")
       (base09 "#f99157")
       (base0A "#fac863")
@@ -23,7 +23,7 @@
       (base0D "#6699cc")
       (base0E "#c594c5")
       (base0F "#ab7967"))
-
+      
   (custom-theme-set-faces
    'charcoal
 
@@ -34,7 +34,7 @@
    `(default ((t (:background ,base00 :foreground ,base05))))
    `(fringe ((t (:background ,base02))))
    `(gui-element ((t (:background ,base03 :foreground ,base06))))
-   `(highlight ((t (:background ,base01))))
+   `(highlight ((t (:background nil))))
    `(link ((t (:foreground ,base0D))))
    `(link-visited ((t (:foreground ,base0E))))
    `(minibuffer-prompt ((t (:foreground ,base0D))))
@@ -382,7 +382,7 @@
    `(jabber-rare-time-face ((t (:foreground ,base04))))
    `(jabber-activity-face ((t (:foreground ,base0E))))
    `(jabber-activity-personal-face ((t (:foreground ,base0C))))
-,
+
    ;; Gnus
    `(gnus-cite-1 ((t (:inherit outline-1 :foreground nil))))
    `(gnus-cite-2 ((t (:inherit outline-2 :foreground nil))))
@@ -490,7 +490,7 @@
    `(custom-state ((t (:foreground ,base0B)))))
 
   (custom-theme-set-variables
-   'base16-tomorrow-dark
+   'charcoal
 
    `(ansi-color-names-vector
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
@@ -499,6 +499,6 @@
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
      [unspecified ,base00 ,base08 ,base0B ,base0A ,base0D ,base0E ,base0D ,base05])))
 
-(provide-theme 'base16-oceanicnex-dark)
+(provide-theme 'charcoal)
 
-;;; base16-oceanicnext-dark-theme.el ends here
+;;; charcoal-theme.el ends here
