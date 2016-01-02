@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated December 28, 2015
+# updated January 1, 2015
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -13,7 +13,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/msql/bin:$PATH
 export PS1="\[\033[2m\]\W\$(parse_git_branch) $\[\033[0m\] "
 
 # default editor
-export EDITOR=/usr/bin/nano
+export EDITOR=/usr/bin/emacs
 
 # environment shortcuts
 alias bp="subl ~/.bash_profile"
@@ -23,17 +23,22 @@ alias cd..="cd ../"
 alias ..="cd ../"
 alias ...="cd ../../"
 alias cp="cp -iv"
-alias e="nano"
+alias e="emacs"
 alias f="open -a Finder ./"
 alias ll="ls -lahG"
 alias mk="mkdir -v"
 alias mv="mv -iv"
+alias n="nano"
 alias oa="open -a"
 alias pc="pbcopy"
 alias pp="pbpaste"
 alias rbp="source ~/.bash_profile"
 alias rm="rm -iv"
 alias t="touch"
+function te() {
+  touch "$1"
+  emacs "$1"
+}
 function ts() {
   touch "$1"
   subl "$1"
