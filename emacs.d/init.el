@@ -8,6 +8,7 @@
 (cua-mode t)
 (global-set-key "\t" (lambda () (interactive) (insert-char 32 2)))
 (electric-indent-mode 0)
+(setq truncate-partial-width-windows t)
 
 ;; includes melpa package manager
 (require 'package)
@@ -26,7 +27,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("0f50d3a37596e601397f9b20ae5bb9983984aa12bd453e1367264203cff9f3ce" default))))
+    ("71ea9d5cfb6c03c80c27f27a7d15aab96fb4cc4509c1c2e021a6bafc890a2acf" "a27cf7b27248653e8325df9ac8b1f2906b2c25344b2cd5a285a5a79f775e6c45" "0f50d3a37596e601397f9b20ae5bb9983984aa12bd453e1367264203cff9f3ce" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
