@@ -28,11 +28,11 @@
    'charcoal
 
    ;; Built-in stuff (Emacs 23)
-   `(border ((t (:background ,base03))))
+   `(border ((t (:background nil))))
    `(border-glyph ((t (nil))))
    `(cursor ((t (:background ,base08))))
    `(default ((t (:background ,base00 :foreground ,base05))))
-   `(fringe ((t (:background ,base02))))
+   `(fringe ((t (:background nil))))
    `(gui-element ((t (:background ,base03 :foreground ,base06))))
    `(highlight ((t (:background nil))))
    `(link ((t (:foreground ,base0D))))
@@ -42,7 +42,7 @@
    `(mode-line-buffer-id ((t (:foreground ,base0E :background nil))))
    `(mode-line-emphasis ((t (:foreground ,base06 :slant italic))))
    `(mode-line-highlight ((t (:foreground ,base0E :box nil :weight bold))))
-   `(mode-line-inactive ((t (:background ,base01 :foreground ,base03 :box nil))))
+   `(mode-line-inactive ((t (:background ,base02 :foreground ,base02 :box nil))))
    `(region ((t (:background ,base02))))
    `(secondary-selection ((t (:background ,base03))))
    `(error ((t (:foreground ,base08 :weight bold))))
@@ -276,8 +276,8 @@
    `(cscope-separator-face ((t (:foreground ,base08 :overline t :underline t :weight bold))))
 
    ;; mark-multiple
-   `(mm/master-face ((t (:inherit region :foreground nil :background nil))))
-   `(mm/mirror-face ((t (:inherit region :foreground nil :background nil))))
+   `(mm/master-face ((t (:inherit region :foreground nil :background ,base03))))
+   `(mm/mirror-face ((t (:inherit region :foreground nil :background ,base03))))
 
    ;; org-mode
    `(org-agenda-structure ((t (:foreground ,base0E))))
@@ -488,6 +488,8 @@
    `(custom-variable-tag ((t (:foreground ,base0D))))
    `(custom-group-tag ((t (:foreground ,base0D))))
    `(custom-state ((t (:foreground ,base0B)))))
+
+  (set-face-background 'vertical-border "#383838")
 
   (custom-theme-set-variables
    'charcoal

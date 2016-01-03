@@ -9,7 +9,7 @@
 (deftheme base16-default-dark)
 
 (let ((base00 "#181818")
-      (base01 "#282828")
+      (base01 "#44494f")
       (base02 "#383838")
       (base03 "#5f6364")
       (base04 "#b8b8b8")
@@ -36,6 +36,7 @@
    `(fringe ((t (:background ,base02))))
    `(gui-element ((t (:background ,base03 :foreground ,base06))))
    `(highlight ((t (:background ,base01))))
+   `(set-face-attribute 'region nil :background ,base01)
    `(link ((t (:foreground ,base0D))))
    `(link-visited ((t (:foreground ,base0E))))
    `(minibuffer-prompt ((t (:foreground ,base0D))))
