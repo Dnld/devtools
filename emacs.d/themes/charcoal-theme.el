@@ -9,8 +9,8 @@
 
 (let ((base00 "#181818")
       (base01 "#44494f")
-      (base02 "#383838")
-      (base03 "#5f6364")
+      (base02 "#474C53")
+      (base03 "#5F6364")
       (base04 "#b8b8b8")
       (base05 "#cfd2d1")
       (base06 "#e8e8e8")
@@ -53,7 +53,7 @@
 
    ;; Font-lock stuff
    `(font-lock-builtin-face ((t (:foreground ,base0C))))
-   `(font-lock-comment-delimiter-face ((t (:foreground ,base02))))
+   `(font-lock-comment-delimiter-face ((t (:foreground ,base03))))
    `(font-lock-comment-face ((t (:foreground ,base03))))
    `(font-lock-constant-face ((t (:foreground ,base09))))
    `(font-lock-doc-face ((t (:foreground ,base04))))
@@ -276,8 +276,8 @@
    `(cscope-separator-face ((t (:foreground ,base08 :overline t :underline t :weight bold))))
 
    ;; mark-multiple
-   `(mm/master-face ((t (:inherit region :foreground nil :background ,base03))))
-   `(mm/mirror-face ((t (:inherit region :foreground nil :background ,base03))))
+   `(mm/master-face ((t (:inherit region :foreground nil :background ,base01))))
+   `(mm/mirror-face ((t (:inherit region :foreground nil :background ,base01))))
 
    ;; org-mode
    `(org-agenda-structure ((t (:foreground ,base0E))))
@@ -489,7 +489,7 @@
    `(custom-group-tag ((t (:foreground ,base0D))))
    `(custom-state ((t (:foreground ,base0B)))))
 
-  (set-face-background 'vertical-border "#383838")
+  (set-face-background 'vertical-border "#474C53")
 
   (custom-theme-set-variables
    'charcoal
