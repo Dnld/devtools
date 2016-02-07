@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated January 1, 2015
+# updated February 7, 2016
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -16,7 +16,7 @@ export PS1="\[\033[2m\]\W\$(parse_git_branch) $\[\033[0m\] "
 export EDITOR=/usr/bin/emacs
 
 # environment shortcuts
-alias bp="subl ~/.bash_profile"
+alias bp="emacs ~/.bash_profile"
 alias c="clear"
 alias c-="cd -"
 alias cd..="cd ../"
@@ -28,7 +28,6 @@ alias f="open -a Finder ./"
 alias ll="ls -lahG"
 alias mk="mkdir -v"
 alias mv="mv -iv"
-alias n="nano"
 alias oa="open -a"
 alias pc="pbcopy"
 alias pp="pbpaste"
@@ -103,12 +102,7 @@ alias down="cd ~/Downloads"
 
 # temporary shortcuts
 alias cs="cd /Users/djs/development/hackreactor/career"
-alias hi="cd /Users/djs/development/hackreactor/hir"
-alias hr="cd /Users/djs/development/hackreactor"
 alias pd="cd /Users/djs/development/predictster"
-alias sj="cd /Users/djs/development/hackreactor/projects/shiftjs"
-alias ss="cd /Users/djs/development/swift"
-alias test="grunt testLexer"
 
 # Chrome shortcuts
 alias chr="open -a google\ chrome"
