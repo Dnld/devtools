@@ -1,7 +1,7 @@
 ################################################################################
 
 # djs bash profile
-# updated February 7, 2016
+# updated February 27, 2016
 # https://github.com/Dnld/devtools/
   
 ################################################################################
@@ -16,7 +16,7 @@ export PS1="\[\033[2m\]\W\$(parse_git_branch) $\[\033[0m\] "
 export EDITOR=/usr/bin/emacs
 
 # environment shortcuts
-alias bp="emacs ~/.bash_profile"
+alias bp="subl ~/.bash_profile"
 alias c="clear"
 alias c-="cd -"
 alias cd..="cd ../"
@@ -34,6 +34,7 @@ alias pp="pbpaste"
 alias rbp="source ~/.bash_profile"
 alias rm="rm -iv"
 alias t="touch"
+alias v="vim"
 function te() {
   touch "$1"
   emacs "$1"
@@ -114,8 +115,7 @@ function hang() {
   /usr/bin/osascript <<EOT
   tell application "System Events" 
     delay 3.5
-    keystroke tab
-    keystroke tab
+    keystroke "l" using command down
     keystroke "c" using command down
   end tell
 EOT
