@@ -1,9 +1,9 @@
 ################################################################################
 
 # djs bash profile
-# updated February 27, 2016
+# updated February 28, 2016
 # https://github.com/Dnld/devtools/
-  
+
 ################################################################################
 
 # set paths
@@ -16,7 +16,7 @@ export PS1="\[\033[2m\]\W\$(parse_git_branch) $\[\033[0m\] "
 export EDITOR=/usr/bin/emacs
 
 # environment shortcuts
-alias bp="subl ~/.bash_profile"
+alias bp="atom ~/.bash_profile"
 alias c="clear"
 alias c-="cd -"
 alias cd..="cd ../"
@@ -35,6 +35,10 @@ alias rbp="source ~/.bash_profile"
 alias rm="rm -iv"
 alias t="touch"
 alias v="vim"
+function ta() {
+  touch "$1"
+  atom "$1"
+}
 function te() {
   touch "$1"
   emacs "$1"
@@ -52,7 +56,7 @@ function cdf() {
     set currFolder to (path to desktop folder as alias)
       end try
       POSIX path of currFolder
-    end tell 
+    end tell
 EOT
   )
   cd "$currFolderPath"
@@ -105,6 +109,10 @@ alias down="cd ~/Downloads"
 alias cs="cd /Users/djs/development/hackreactor/career"
 alias pd="cd /Users/djs/development/predictster"
 
+# Atom shortcuts
+alias a="atom"
+alias a.="atom ."
+
 # Chrome shortcuts
 alias chr="open -a google\ chrome"
 function cg() {
@@ -113,7 +121,7 @@ function cg() {
 function hang() {
   open -a google\ chrome http://hangouts.google.com/start
   /usr/bin/osascript <<EOT
-  tell application "System Events" 
+  tell application "System Events"
     delay 3.5
     keystroke "l" using command down
     keystroke "c" using command down
@@ -137,7 +145,7 @@ alias gco="git checkout"
 alias gd="git diff"
 alias gdt="open -a github\ desktop"
 alias gf="git fetch"
-alias gh="git help" 
+alias gh="git help"
 alias gi="git init"
 alias gk="gitk"
 alias gl="git log"
