@@ -1,3 +1,9 @@
+" .vimrc
+" Donald Steinert
+" updated July 24, 2016
+" https://github.com/Dnld/devtools
+
+" general settings
 set ruler
 set number
 set laststatus=2
@@ -7,18 +13,18 @@ set smarttab
 set shiftwidth=2
 set nowrap
 set hlsearch!
-syntax enable
-
-colorscheme Tomorrow-Night
-
 nnorema <silent> <Esc><Esc> :let @/=""<CR>
 
+" syntax highlighting and theme
+syntax enable
+colorscheme Tomorrow-Night
+
 " splitpane configurations
+nnoremap <C-L> <C-W><C-L>
 set splitbelow
 set splitright
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " move line up or down
@@ -29,3 +35,7 @@ inoremap <C-K> <Esc>:m .-2<CR>==gi
 vnoremap <C-J> :m '>+1<CR>gv=gv
 vnoremap <C-K> :m '<-2<CR>gv=gv
 
+" explorer settings
+let mapleader=" "
+map <leader><leader> :E<cr> 
+let g:netrw_liststyle=3
