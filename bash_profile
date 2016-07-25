@@ -11,7 +11,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PS1="\[\033[2m\]\W\$(parse_git_branch) $\[\033[0m\] "
 
 # default editor
-export EDITOR=vimi
+export EDITOR=vim
 
 # environment shortcuts
 alias bp="vim ~/.bash_profile"
