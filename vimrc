@@ -1,6 +1,6 @@
 " .vimrc
 " Donald Steinert
-" updated July 24, 2016
+" updated Aug 21, 2016
 " https://github.com/Dnld/devtools
 
 " general settings
@@ -17,9 +17,11 @@ nnorema <silent> <Esc><Esc> :let @/=""<CR>
 
 " syntax highlighting and theme
 syntax enable
-colorscheme Tomorrow-Night
+set t_Co=256
+colorscheme Charcoal 
+set background=dark 
 
-" splitpane configurations
+" splitpace configuratin
 set splitbelow
 set splitright
 nnoremap <C-L> <C-W><C-L>
@@ -35,6 +37,7 @@ vnoremap <C-K> :m '<-2<CR>gv=gv
 
 " explorer settings
 let mapleader=" "
-map <leader><leader> :E<cr> 
+map <leader>k :E<cr>
+map <leader>l :vsp.<cr>
 let g:netrw_liststyle=3
 
