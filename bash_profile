@@ -1,5 +1,5 @@
 # bash profile
-# updated Jul 23, 2016
+# updated October 16, 2016
 # https://github.com/Dnld/devtools/
 
 ################################################################################
@@ -11,10 +11,10 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PS1="\[\033[2m\]\W\$(parse_git_branch) $\[\033[0m\] "
 
 # default editor
-export EDITOR=vim
+export EDITOR=nano
 
 # environment shortcuts
-alias bp="vim ~/.bash_profile"
+alias bp="atom ~/.bash_profile"
 alias c="clear"
 alias c-="cd -"
 alias cd..="cd ../"
@@ -34,6 +34,10 @@ alias v="vim"
 function tv() {
   touch "$1"
   vim "$1"
+}
+function ta() {
+  touch "$1"
+  atom "$1"
 }
 function cdf() {
   currFolderPath=$( /usr/bin/osascript <<EOT
@@ -71,12 +75,17 @@ alias sla="open -a slack"
 alias twe="open -a tweetbot"
 
 # navigational shortcuts
+alias db="cd ~/Dropbox/"
 alias desk="cd ~/Desktop"
-alias dev="cd ~/development"
+alias dev="cd ~/Dropbox/development"
 alias doc="cd ~/Documents"
 alias down="cd ~/Downloads"
 
 # temporary shortcuts
+
+# Atom shortcuts
+alias a="atom"
+alias a.="atom ."
 
 # Chrome shortcuts
 alias chr="open -a google\ chrome"
@@ -140,6 +149,10 @@ alias xco="open -a xcode"
 function parse_git_branch() {
   git branch 2> /dev/null | sed -e "/^[^*]/d" -e "s/* \(.*\)/ (\1)/"
 }
+
+# Go paths
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 # Node path
 export NODE_PATH="/usr/local/lib/node_modules:$NODE_PATH"
