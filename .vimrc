@@ -2,14 +2,36 @@
 " updated November 26, 2016
 " https://github.com/Dnld/devtools
 
+" Vundle
+set nocompatible          
+filetype off 
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" plugins
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-scripts/vim-auto-save'
+
+" plugins must be added before this line 
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" plugin settings
+
+" Autosave settings
+let g:auto_save = 1
+let g:auto_save_silent = 1
+
 " general settings
 inoremap jj <Esc>
 set ruler
 set number
 set laststatus=2
-set autoindent
 set smartindent
 set smarttab
+set autoindent
 set shiftwidth=2
 set hlsearch!
 set nowrap
@@ -24,8 +46,6 @@ set background=dark
 " splitpace configuratin
 set splitbelow
 set splitright
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
 
 " move line up or down
 nnoremap <C-J> :m .+1<CR>==
@@ -39,6 +59,5 @@ vnoremap <C-K> :m '<-2<CR>gv=gv
 let mapleader=" "
 map <leader><leader> :Explore<cr>
 let g:netrw_banner = 0
-let g:netrw_winsize = 100
 let g:netrw_liststyle = 3
 
