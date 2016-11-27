@@ -13,6 +13,8 @@ call vundle#begin()
 " plugins
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-scripts/vim-auto-save'
+Plugin 'itchyny/lightline.vim'
+Plugin 'tpope/vim-fugitive'
 
 " plugins must be added before this line 
 call vundle#end()            " required
@@ -23,6 +25,27 @@ filetype plugin indent on    " required
 " Autosave settings
 let g:auto_save = 1
 let g:auto_save_silent = 1
+
+" Lightline settings
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component': {
+      \   'readonly': '%{&filetype=="help"?"":&readonly?"⭤":""}',
+      \   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
+      \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'
+      \ },
+      \ 'component_visible_condition': {
+      \   'readonly': '(&filetype!="help"&& &readonly)',
+      \   'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
+      \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
+      \ },
+      \ 'separator': { 'left': '', 'right': '' },
+      \ 'subseparator': { 'left': '|', 'right': '|' }
+      \ }
 
 " general settings
 inoremap jj <Esc>
@@ -35,6 +58,7 @@ set autoindent
 set shiftwidth=2
 set hlsearch!
 set nowrap
+set noshowmode
 nnorema <silent> <Esc><Esc> :let @/=""<CR>
 
 " syntax highlighting and theme
@@ -42,6 +66,7 @@ syntax enable
 set t_Co=256
 colorscheme Tomorrow-Night
 set background=dark 
+set guifont=Source\ Code\ Pro\ Bold\ 13
 
 " splitpace configuratin
 set splitbelow
