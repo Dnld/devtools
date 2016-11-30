@@ -12,9 +12,10 @@ call vundle#begin()
 
 " plugins
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-scripts/vim-auto-save'
-Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'fatih/vim-go'
+Plugin 'itchyny/lightline.vim'
+Plugin 'vim-scripts/vim-auto-save'
 
 " plugins must be added before this line 
 call vundle#end()            " required

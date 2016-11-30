@@ -24,7 +24,7 @@ let s:window = "4d5057"
 " Console 256 Colours
 if !has("gui_running")
 	let s:background = "303030"
-	let s:window = "5e5e5e"
+	let s:window = "4e4e4e"
 	let s:line = "3a3a3a"
 	let s:selection = "585858"
 end
@@ -274,7 +274,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	end
 
 	" Standard Highlighting
-	call <SID>X("Comment", s:comment, "", "")
+	call <SID>X("Comment", s:selection, "", "")
 	call <SID>X("Todo", s:comment, s:background, "")
 	call <SID>X("Title", s:comment, "", "")
 	call <SID>X("Identifier", s:red, "", "none")
