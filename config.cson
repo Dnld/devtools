@@ -1,0 +1,32 @@
+"*":
+  "atom-clock":
+    dateFormat: "h:mm a"
+  autosave:
+    enabled: true
+  core:
+    audioBeep: false
+    automaticallyUpdate: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "background-tips"
+    ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-charcoal-syntax"
+    ]
+    useCustomTitleBar: true
+  editor:
+    fontFamily: "Source Code Pro"
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "7d523d9a-e619-4bf2-1daa-123d56a35829"
+  expose: {}
+  "go-plus":
+    panelDisplayMode: "closed"
+  "one-dark-ui":
+    layoutMode: "Compact"
+  welcome:
+    showOnStartup: false
