@@ -1,5 +1,5 @@
 # bash profile
-# updated October 16, 2016
+# updated December 3, 2016
 # https://github.com/Dnld/devtools/
 
 ################################################################################
@@ -14,7 +14,7 @@ export PS1="\[\033[2m\]\W\$(parse_git_branch) $\[\033[0m\] "
 export EDITOR=nano
 
 # environment shortcuts
-alias bp="nvim ~/.bash_profile"
+alias bp="a ~/.bash_profile"
 alias c="clear"
 alias c-="cd -"
 alias cd..="cd ../"
@@ -31,10 +31,6 @@ alias rbp="source ~/.bash_profile"
 alias rm="rm -iv"
 alias t="touch"
 alias v="nvim"
-function tv() {
-  touch "$1"
-  nvim "$1"
-}
 function ta() {
   touch "$1"
   atom "$1"
@@ -158,9 +154,3 @@ export PATH=$PATH:$GOPATH/bin
 export NODE_PATH="/usr/local/lib/node_modules:$NODE_PATH"
 
 ################################################################################
-
-# Initialization for FDK command line tools.Sat Nov 26 17:26:59 2016
-FDK_EXE="/Users/donaldsteinert/bin/FDK/Tools/osx"
-PATH=${PATH}:"/Users/donaldsteinert/bin/FDK/Tools/osx"
-export PATH
-export FDK_EXE
