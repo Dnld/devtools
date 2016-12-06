@@ -13,5 +13,7 @@
   'ctrl-y': 'editor:move-to-previous-subword-boundary'
   'ctrl-shift-i': 'editor:move-line-up'
   'ctrl-shift-u': 'editor:move-line-down'
+  'ctrl-shift-o': 'editor:select-to-beginning-of-next-word'
+  'ctrl-shift-y': 'editor:select-to-beginning-of-word'
   'ctrl-s': 'spell-check:correct-misspelling'
   'ctrl-p': '!unset'
