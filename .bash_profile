@@ -1,5 +1,5 @@
 # bash profile
-# updated December 3, 2016
+# updated December 18, 2016
 # https://github.com/Dnld/devtools/
 
 ################################################################################
@@ -22,6 +22,7 @@ alias ..="cd ../"
 alias ...="cd ../../"
 alias cp="cp -iv"
 alias f="open -a Finder ./"
+alias hcf="atom ~/.hyper.js"
 alias ll="ls -lahG"
 alias mk="mkdir -v"
 alias mv="mv -iv"
@@ -146,9 +147,13 @@ function parse_git_branch() {
   git branch 2> /dev/null | sed -e "/^[^*]/d" -e "s/* \(.*\)/ (\1)/"
 }
 
-# Go paths
+# Go environment variables
 export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
+export GOARCH="amd64"
+export GOOS="darwin"
 
 # Node path
 export NODE_PATH="/usr/local/lib/node_modules:$NODE_PATH"
